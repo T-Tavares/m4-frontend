@@ -1,0 +1,27 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem;
+}
+.resultsTable {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.resultsTable tbody tr {
+    color: #777;
+}
+.resultsTable thead tr th:first-of-type {
+    text-align: left;
+}
+.resultsTable thead tr th:last-of-type {
+    text-align: right;
+}
+.resultsTable tbody tr th:first-of-type {
+    text-align: left;
+}
+.resultsTable tbody tr th:last-of-type {
+    text-align: right;
+}
